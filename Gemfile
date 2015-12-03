@@ -46,8 +46,11 @@ end
 gem 'mongoid', '~> 5.0.0.beta', github: 'mongoid/mongoid'
 gem 'bson_ext'
 
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
+
 gem "activeresource"
 gem 'thin'
 
 gem 'monologue', :git => 'https://github.com/gagoit/monologue.git'
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 

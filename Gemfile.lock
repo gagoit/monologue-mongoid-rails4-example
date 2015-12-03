@@ -109,15 +109,24 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99)
+    mimemagic (0.3.0)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
     mongo (2.1.0.beta)
       bson (~> 3.0)
+    mongoid-paperclip (0.0.10)
+      paperclip (>= 2.3.6, != 4.3.0)
     multi_json (1.11.2)
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
     origin (2.1.1)
     orm_adapter (0.5.0)
+    paperclip (4.3.2)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      cocaine (~> 0.5.5)
+      mime-types
+      mimemagic (= 0.3.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -205,6 +214,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mongoid (~> 5.0.0.beta)!
+  mongoid-paperclip
   monologue!
   rails (= 4.2.5)
   sass-rails (~> 5.0)
